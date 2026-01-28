@@ -1,5 +1,5 @@
 # just buy if candle is lower than last candle
-import strategies
+from . import BUY, SELL, HOLD
 
-def bull_strat(data):
-    return strategies.BUY
+def strat():
+    return

@@ -30,7 +30,7 @@ Multi-strategy historical backtester for candle data.
 ## NEXT SESSION — START HERE
 (Concrete, no thinking required)
 
-1. Finish @bull_strat.py and let the backtesting loop actually work with it
+1. Finish @bull_strat.py and @strat.py and then let the backtesting loop actually work with it
 
 ---
 
