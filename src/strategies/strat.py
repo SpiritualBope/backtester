@@ -17,6 +17,7 @@ def check_for_signal(datafile: pandas.DataFrame) -> Optional[str]:
     for i, strategy_func in enumerate(strats, 1):
         signal = strategy_func(datafile)
         print(f"Strategy {i} signal: {signal}")
+        
         if signal == BUY:
             buy_flags += 1
         elif signal == SELL:
